@@ -1,4 +1,8 @@
 library(tidyverse)
+library(reshape2)
+library(pheatmap)
+library(glue)
+
 
 # Funcion para calular las lambdas de cada equipo ==============================
 calc_lambda <- function(league,h_team,a_team){
@@ -82,14 +86,29 @@ sim_match <- function(lambs,n){
 }
 
 # Sacar la matriz de probabilidades de resultado:
-match_matrix <- function(rates){
-  goals <- seq(0,6)
+match_matrix <- function(rates, home, away){
+  goals <- seq(0,4)
   home_probs <- dpois(goals, rates$h_lambda)
   away_probs <- dpois(goals, rates$a_lambda)
   
   rown <- as.character(goals)
   coln <- as.character(goals)
   
-  res_matrix = matrix((home_probs) %*% t(away_probs),
-                      dimnames = list(rown, coln))
+  # El primero que pones aquí, temrinan siendo las filas, por lo tanto
+  # en nuestra matriz, las filas son el de casa. 
+  outcomes <- as.matrix(outer(home_probs,away_probs,"*"))
+  colnames(outcomes) <- coln
+  rownames(outcomes) <-  rown
+  probs <- outcomes * 100
+  mapa <- pheatmap(probs,
+                   cluster_rows = F,
+                   cluster_cols = F,
+                   main = paste0("Probabilidades de resultado para ",home," vs ", away),
+                   angle_col = 0,
+                   display_numbers = T,
+                   number_format = "%.2f%%",
+                   legend = F)
+  return(mapa)
+  
+  
 }

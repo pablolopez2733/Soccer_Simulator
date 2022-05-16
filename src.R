@@ -2,12 +2,12 @@
 source("utils.R")
 
 # Leer data
-df <- read.csv("clausura_2022.csv")
+df <- read.csv("data/clausura_2022.csv")
 
 # Equipo visitante
-away <- ""
+away <- "America"
 # Equipo local
-home <- ""
+home <- "Puebla"
 
 ################################################################################
 ############################### SIMULACIÓN #####################################
@@ -19,4 +19,4 @@ lambdas <- calc_lambda(df, home, away)
 # Simulamos el partido n veces:
 resultado <- sim_match(lambdas, n)
 # Matriz de calor
-prob_matrix <- match_matrix(lambdas)
+prob_matrix <- match_matrix(lambdas, home, away)
