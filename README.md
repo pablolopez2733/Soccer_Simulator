@@ -1,8 +1,12 @@
 # Soccer_Simulator  
 
-_This project aims to make use of Monte Carlo simulation and Poisson distribution while incorporating advanced  stats and betting market lines to predict the outcome of a match._
+_This project aims to make use of Monte Carlo simulation and Poisson distribution while incorporating advanced  stats and betting market lines to predict the outcome of a match._   
+
+Author: [Pablo Lopez Landeros](https://github.com/pablolopez2733)
 
 ***
+
+
 
 ## To do:  
 
