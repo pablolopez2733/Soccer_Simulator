@@ -6,6 +6,7 @@ _This project aims to make use of Monte Carlo simulation and Poisson distributio
 
 ## To do:  
 
+* Include team logos in result prediciton matrix
 * Shiny App
 * Find a way to incorporate betting market lines into predictions.
 * Include a Bayesian framework
