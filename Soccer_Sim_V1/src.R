@@ -1,8 +1,8 @@
 # Cargar funciones
-source("utils.R")
+source("Soccer_Sim_V1/utils.R")
 
 # Leer data
-df <- read.csv("data/clausura_2022.csv")
+df <- read.csv("Soccer_Sim_V1/data/clausura_2022.csv")
 
 # Equipo visitante
 away <- "America"
