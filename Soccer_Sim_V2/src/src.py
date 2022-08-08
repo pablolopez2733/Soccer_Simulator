@@ -177,7 +177,7 @@ for x_,y_,abbrev in zip(teams['transfermarkt'],teams['avg_spi'],teams['abrev']):
 ax_dict["bar"].spines["top"].set_visible(False)
 ax_dict["bar"].spines["right"].set_visible(False)
 ax_dict["bar"].set_facecolor("#EFE9E6")
-plt.figtext(0.9, 0.03,'Viz: @Landeros_p33\nCódigo original: @sonofacorner',
+plt.figtext(0.89, 0.02,'Viz: @Landeros_p33\nCódigo original: @sonofacorner',
             fontsize=6,horizontalalignment='right',color = "#4E616C")
 
 # import  matplotlib.font_manager
