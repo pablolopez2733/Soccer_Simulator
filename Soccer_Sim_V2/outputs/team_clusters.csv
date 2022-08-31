@@ -1,0 +1,19 @@
+rank,prev_rank,name,league,off,def,spi,transfermarkt,avg_spi,cluster,cluster_color,abrev
+75,73,Monterrey,Mexican Primera Division Torneo Apertura,1.73,0.96,63.43,73.2,63.37882353,2,#2b9b8f,MTY
+82,76,Tigres UANL,Mexican Primera Division Torneo Apertura,1.71,1.03,61.34,70.9,61.63,2,#2b9b8f,UANL
+115,111,Club América,Mexican Primera Division Torneo Apertura,1.55,1.04,57.78,72.2,58.34705882,2,#2b9b8f,AME
+127,121,Pachuca,Mexican Primera Division Torneo Apertura,1.5,1.07,55.8,44.6,56.09352941,1,#eba771,PAC
+147,141,Cruz Azul,Mexican Primera Division Torneo Apertura,1.44,1.12,53.09,55.4,53.63882353,1,#eba771,CAZ
+172,169,Guadalajara,Mexican Primera Division Torneo Apertura,1.29,1.11,49.95,61.85,50.20529412,1,#eba771,GDL
+173,172,Santos Laguna,Mexican Primera Division Torneo Apertura,1.49,1.32,49.85,58.9,50.49764706,1,#eba771,SAN
+178,175,Atlas,Mexican Primera Division Torneo Apertura,1.34,1.2,48.75,46.8,49.26882353,1,#eba771,ATL
+197,193,León,Mexican Primera Division Torneo Apertura,1.4,1.36,46.66,48.2,46.89,1,#eba771,LEO
+211,212,Puebla,Mexican Primera Division Torneo Apertura,1.29,1.31,45.2,31.45,45.04,0,#c92851,PUE
+248,264,Pumas Unam,Mexican Primera Division Torneo Apertura,1.16,1.26,43.12,31.3,42.78352941,0,#c92851,UNAM
+259,295,Necaxa,Mexican Primera Division Torneo Apertura,1.15,1.27,42.53,27.7,41.77823529,0,#c92851,NEC
+283,313,Tijuana,Mexican Primera Division Torneo Apertura,1.16,1.34,41.08,32.53,40.25647059,0,#c92851,TIJ
+288,286,Atlético San Luis,Mexican Primera Division Torneo Apertura,1.16,1.37,40.64,28.55,40.86882353,0,#c92851,ASL
+298,311,Toluca,Mexican Primera Division Torneo Apertura,1.28,1.53,40.25,43.3,39.66294118,0,#c92851,TOL
+356,360,FC Juárez,Mexican Primera Division Torneo Apertura,0.92,1.25,36.73,40.3,36.30235294,0,#c92851,FCJ
+361,328,Mazatlán FC,Mexican Primera Division Torneo Apertura,1.07,1.46,36.5,21.05,37.04588235,0,#c92851,MAZ
+368,384,Querétaro,Mexican Primera Division Torneo Apertura,1.07,1.48,36.09,24.78,36.01882353,0,#c92851,QRO

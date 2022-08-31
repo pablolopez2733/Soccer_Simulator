@@ -1,0 +1,19 @@
+,rank,prev_rank,name,league,off,def,spi,transfermarkt,avg_spi,cluster,cluster_color,abrev
+0,75,70,Monterrey,Mexican Primera Division Torneo Apertura,1.71,0.94,63.7,73.2,63.688235294117646,2,#2b9b8f,MTY
+1,83,114,Club América,Mexican Primera Division Torneo Apertura,1.68,0.98,62.0,72.2,60.32764705882354,2,#2b9b8f,AME
+2,90,89,Tigres UANL,Mexican Primera Division Torneo Apertura,1.64,0.99,60.74,70.9,61.22941176470587,2,#2b9b8f,UANL
+3,130,121,Pachuca,Mexican Primera Division Torneo Apertura,1.39,0.98,55.44,44.6,56.02117647058823,1,#eba771,PAC
+4,142,164,Santos Laguna,Mexican Primera Division Torneo Apertura,1.62,1.28,53.45,58.9,52.50058823529412,1,#eba771,SAN
+5,156,171,Guadalajara,Mexican Primera Division Torneo Apertura,1.36,1.09,51.98,61.85,51.142352941176476,1,#eba771,GDL
+6,194,190,Atlas,Mexican Primera Division Torneo Apertura,1.31,1.25,47.04,46.8,48.52764705882353,1,#eba771,ATL
+7,203,175,Cruz Azul,Mexican Primera Division Torneo Apertura,1.35,1.33,46.01,55.4,50.133529411764705,1,#eba771,CAZ
+8,211,214,Toluca,Mexican Primera Division Torneo Apertura,1.41,1.43,45.44,43.3,42.31529411764706,0,#c92851,TOL
+9,229,233,Puebla,Mexican Primera Division Torneo Apertura,1.35,1.42,44.29,31.45,44.497058823529414,0,#c92851,PUE
+10,245,229,León,Mexican Primera Division Torneo Apertura,1.32,1.44,43.11,48.2,45.05529411764706,1,#eba771,LEO
+11,278,250,Necaxa,Mexican Primera Division Torneo Apertura,1.16,1.35,41.04,27.7,41.1835294117647,0,#c92851,NEC
+12,289,273,Pumas Unam,Mexican Primera Division Torneo Apertura,1.18,1.42,40.21,31.3,41.22941176470589,0,#c92851,UNAM
+13,290,320,Tijuana,Mexican Primera Division Torneo Apertura,1.21,1.45,40.12,32.53,39.53411764705883,0,#c92851,TIJ
+14,301,292,FC Juárez,Mexican Primera Division Torneo Apertura,0.94,1.15,39.7,40.3,37.86176470588236,0,#c92851,FCJ
+15,312,308,Atlético San Luis,Mexican Primera Division Torneo Apertura,1.16,1.44,39.2,28.55,40.13,0,#c92851,ASL
+16,346,341,Querétaro,Mexican Primera Division Torneo Apertura,1.08,1.43,37.48,24.78,36.652941176470584,0,#c92851,QRO
+17,350,354,Mazatlán FC,Mexican Primera Division Torneo Apertura,1.07,1.42,37.37,21.05,37.527647058823526,0,#c92851,MAZ
